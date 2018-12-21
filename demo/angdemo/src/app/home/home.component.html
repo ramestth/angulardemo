@@ -1,0 +1,77 @@
+<p></p>
+<!-- <input 
+  style="display: none" 
+  type="file" (change)="onFileChanged($event)" 
+  #fileInput>
+<img   (click)="fileInput.click()" src = "{{currentUser.Image}}" style="width:50px;height:50px;cursor:pointer"/><p></p>
+<button class= "btn-success btn btn-sm" (click)="onUpload(currentUser.Id)">Upload</button> -->
+<h4>Employees List</h4>
+<p></p>
+<a [routerLink]="['/addemp']" class="btn-success btn btn-sm">Add New</a>
+<p></p>
+<input [(ngModel)]="searchText" placeholder="Search.." class="advancedSearchTextbox">
+<p></p>
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <td hidden>Id</td>
+      <td>FirstName</td>
+      <td>LastName</td>
+      <td>Position</td>
+      <td>Office</td>
+      <td>EmpCode</td>
+      <td colspan="2">Actions</td>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- <tr *ngFor="let user of pagedItems"> -->
+      <tr *ngFor="let user of pagedItems | customepipe: {FirstName: searchText, LastName:searchText,Position:searchText,Office:searchText,EmpCode:searchText};">
+      <td hidden>{{user.EmpId}}</td>
+      <td>{{user.FirstName}}</td>
+      <td>{{user.LastName}}</td>
+      <td>{{user.Position}}</td>
+      <td>{{user.Office}}</td>
+      <td>{{user.EmpCode}}</td>
+      <td><div><a (click)="edit(user.EmpId)" [routerLink]="['/editemp']" class="btn-success btn btn-sm">Edit</a>&nbsp;<a (click)="openConfirmationDialog(user.EmpId)" class="btn-danger btn btn-sm">Delete</a></div></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- <jw-pagination pageSize="2" initialPage="1"  [items]="allItems" (changePage)="onChangePage($event)"></jw-pagination> -->
+ <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+              <li class="page-item" [ngClass]="{disabled:pager.currentPage === 1}">
+                  <a class="page-link" (click)="setPage(1,pagesize)">First</a>
+              </li>
+              <li class="page-item"  [ngClass]="{disabled:pager.currentPage === 1}">
+                  <a class="page-link" (click)="setPage(pager.currentPage - 1,pagesize)">Previous</a>
+              </li>
+              <li class="page-item" *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+                  <a class="page-link" (click)="setPage(page,pagesize)">{{page}}</a>
+              </li>
+              <li class="page-item" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                  <a class="page-link"  (click)="setPage(pager.currentPage + 1,pagesize)">Next</a>
+              </li>
+              <li class="page-item" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                  <a class="page-link" (click)="setPage(pager.totalPages,pagesize)">Last</a>
+              </li>
+ </ul>
+<div style="margin-left:470px;margin-top:-55px">
+  <label><b>PageSize:&nbsp;</b> </label>
+  <select   style="width: 60px;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;" (change)="changePageSize($event.target.value)">
+      <option value="1">1</option>
+      <option selected value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+  </select>
+</div>

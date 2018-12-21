@@ -1,0 +1,74 @@
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Cors.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.dll
+C:\Users\ankur\Desktop\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Cors.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.Cors.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ankur\Desktop\angularbasic\api\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

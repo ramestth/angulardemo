@@ -1,0 +1,46 @@
+<a (click)="remove()" [routerLink]="['/home']">Back</a>
+<h2>Edit Employee</h2>
+<form [formGroup]="empform" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <input formControlName="EmpId" type="hidden">
+    </div>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" formControlName="FirstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.FirstName.errors }" />
+        <div *ngIf="submitted && f.FirstName.errors" class="invalid-feedback">
+            <div *ngIf="f.FirstName.errors.required">First Name is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" formControlName="LastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.LastName.errors }" />
+        <div *ngIf="submitted && f.LastName.errors" class="invalid-feedback">
+            <div *ngIf="f.LastName.errors.required">Last Name is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="empcode">EmpCode</label>
+        <input type="text" formControlName="EmpCode" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.EmpCode.errors }" />
+        <div *ngIf="submitted && f.EmpCode.errors" class="invalid-feedback">
+            <div *ngIf="f.EmpCode.errors.required">EmpCode is required</div>
+        </div>
+    </div>
+    <div class="form-group">
+      <label for="position">Position</label>
+      <input type="text" formControlName="Position" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Position.errors }" />
+      <div *ngIf="submitted && f.Position.errors" class="invalid-feedback">
+          <div *ngIf="f.Position.errors.required">Position is required</div>
+      </div>
+  </div>
+  <div class="form-group">
+    <label for="office">Office</label>
+    <input type="text" formControlName="Office" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.Office.errors }" />
+    <div *ngIf="submitted && f.Office.errors" class="invalid-feedback">
+        <div *ngIf="f.Office.errors.required">Office is required</div>
+    </div>
+  </div>
+    <div class="form-group">
+        <button [disabled]="loading" class="btn btn-primary">Update</button>
+        <a [routerLink]="['/home']" class="btn btn-link">Cancel</a>
+    </div>
+</form>

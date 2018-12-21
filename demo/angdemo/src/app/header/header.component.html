@@ -1,0 +1,9 @@
+<div class="header" style="max-height: 45px;">
+  <span href="#" class="logo">{{userName}}</span>
+  <div class="header-right">
+     <a href="#" (click)="logout()" *ngIf="IsLoggedIn" class="active">Logout</a>
+     <a [routerLink]="['/userprofile']" *ngIf="IsLoggedIn"  class="active" style="margin-left: 65px;" >Ps</a>
+     <img *ngIf="IsLoggedIn" src = "{{Image}}" style="width:30px;height:30px;margin-top: -21px;
+     margin-left: -38px"/>
+  </div>
+</div>
